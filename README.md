@@ -39,3 +39,17 @@ Import table data (yes/no): yes > yes
 
 Import entire export file (yes/no): no > yes
 ```
+
+ADMIN DETAILS:
+--------------------
+
+-> Username - anshul@007 
+<details>
+  <summary>Click to reveal spoiler</summary>
+  <p>This is the hidden spoiler content.</p>
+</details>
+Password - password
+-> To create a new admin user, run following commands on Oracle SQL
+
+```
+
