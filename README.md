@@ -49,7 +49,7 @@ ADMIN DETAILS:
   <p>Password : password</p>
 </details>
 
--> To create a new admin user, first generate a MD5 hash of your password [here], (https://codebeautify.org/md5-hash-generator)! in uppercase.
+-> To create a new admin user, first generate a MD5 hash of your password [here] (https://codebeautify.org/md5-hash-generator)! in uppercase.
 
 -> Run these commands on Oracle SQL -
 
