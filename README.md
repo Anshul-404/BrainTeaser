@@ -43,13 +43,25 @@ Import entire export file (yes/no): no > yes
 ADMIN DETAILS:
 --------------------
 
--> Username - anshul@007 
 <details>
-  <summary>Click to reveal spoiler</summary>
-  <p>This is the hidden spoiler content.</p>
+  <summary>Default Credentials For Admin Login</summary>
+  <p>User ID : anshul@007</p>
+  <p>Password : password</p>
 </details>
-Password - password
--> To create a new admin user, run following commands on Oracle SQL
+
+-> To create a new admin user, first generate a MD5 hash of your password [here], (https://codebeautify.org/md5-hash-generator)! in uppercase.
+
+-> Run these commands on Oracle SQL -
 
 ```
+connect quiz/quiz
+insert into users values ('your@userid', 'YOUR_HASH_IN_UPPERCASE', 'Admin');
+commit;
+```
+-> To Remove Default Credentials, run these commands on Oracle SQL -
 
+```
+connect quiz/quiz
+delete from users where USERID = 'anshul@007';
+commit;
+```
