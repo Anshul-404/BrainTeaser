@@ -2,6 +2,8 @@
 
 The BrainTeaser Application is a Java desktop solution designed to simplify exam management for teachers and empower students with easy access to their performance insights.
 
+![Splash Screen](images/SplashScreen.png)
+
 ## Features
 
 - **Admin Panel:**
